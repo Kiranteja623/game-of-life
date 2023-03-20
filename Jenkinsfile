@@ -9,7 +9,7 @@ pipeline {
                     }
         stage ('build the package') { 
           steps { 
-                    sh "mvn clean install"
+                    sh "mvn install"
           }
         }
           }
